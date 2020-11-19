@@ -30,7 +30,7 @@ public class CrosswordBot extends ListenerAdapter {
     }
 
     public static void main(String[] args) throws Exception {
-        JDA jda = JDABuilder.createDefault("NDg4OTc1NzM2NDc3MTg4MTA2.W5dwJA.267wUqx8WS4P64-D2jUAeetVIu8").build();
+        JDA jda = JDABuilder.createDefault("NDg4OTc1NzM2NDc3MTg4MTA2.W5dwJA.t4LcddOM-ZiGbWiYPBJYGesrz4U").build();
         jda.addEventListener(new CrosswordBot());
 
     }
